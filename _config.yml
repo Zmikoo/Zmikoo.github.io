@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: yxBlob
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Yunxiao Zhang
 language:
 timezone:
 
@@ -78,4 +78,6 @@ theme: landfarz
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type:git
+  repository:git@github.com:Zmikoo/Zmikoo.github.io.git
+  branch:master
